@@ -1,0 +1,9 @@
+{
+	"server_port" : 8080,
+	"backend" : {
+		"port" : 8081,
+		"host" : "localhost",
+		"path" : "/rest"
+	},
+	"statics_dir" : "~/Projects/arollavengers/front-backbone"
+}

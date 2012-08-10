@@ -1,0 +1,35 @@
+{
+  "name": "FrontEnd",
+  "description": "Pandemic FrontEnd",
+  "version": "0.0.1",
+  "author": "Arollavengers",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/arollavengers/backend-java.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "vows": ">= 0.5.8",
+    "jslint" : "0.1.9"
+  },
+  "dependencies": {
+    "nconf": "0.6.x",
+    "async": ">= 0.1.8"
+  },
+  "bin": {
+    "server": "./bin/server"
+  },
+  "main": "./lib/server",
+  "scripts": {
+    "test" : "nodeunit test/*_test.js",
+    "specs": "vows specs/*_test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  }
+
+
+}
